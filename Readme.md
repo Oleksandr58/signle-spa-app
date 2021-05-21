@@ -7,7 +7,7 @@ npm i
 ### Run locally
 
 ```bash
-npm run start
+npm run start 
 ```
 
 ### Build
