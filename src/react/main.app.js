@@ -9,10 +9,13 @@ function domElementGetter() {
 
 const reactLifecycles = singleSpaReact({
   React,
-  ReactDOM,
+  ReactDOM,   
   rootComponent: Home,
   domElementGetter,
 })
+
+
+
 
 export const bootstrap = [
   reactLifecycles.bootstrap,
