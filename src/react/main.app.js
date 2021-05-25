@@ -14,6 +14,9 @@ const reactLifecycles = singleSpaReact({
   domElementGetter,
 })
 
+
+
+
 export const bootstrap = [
   reactLifecycles.bootstrap,
 ];
